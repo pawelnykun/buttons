@@ -4,5 +4,5 @@ var withButtonsClass = document.getElementsByClassName('button');
 console.log(withButtonsClass);
 //funkcja wyświetlająca tekst zawarty w elementach tablicy
 for ( var i=0; i < withButtonsClass.length; i++ ) {
-	console.log( withButtonsClass[i].innerText )
+	console.log( withButtonsClass[i].innerText );
 }
